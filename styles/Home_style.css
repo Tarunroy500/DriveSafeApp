@@ -1,0 +1,865 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@800&family=Open+Sans:wght@600;700;800&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  font-family: "Open Sans";
+  overflow-x: hidden;
+}
+
+/*nav section start ......*/
+
+nav {
+  padding: 0 90px;
+  padding-top: 13px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  color: #181c61;
+  width: 615px;
+  height: 20px;
+  justify-content: space-around;
+}
+nav ul li {
+}
+
+.callButton {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  width: 160px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(87.63deg, #ff8b73 1.99%, #ff678e 218.48%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 3px 9px 9px 9px;
+}
+nav #logo img {
+  height: 54px;
+}
+
+/*nav section end ......*/
+
+/* hero section start ......*/
+
+.hero {
+  position: relative;
+  width: 103%;
+  background-color: #ff678e;
+  background: url("../images/bg\ web\ development.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right top;
+  padding: 10vmax;
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 0;
+}
+#heroText {
+  width: 50%;
+}
+#heroText h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  line-height: 123%;
+  font-size: 64px;
+  color: #181c61;
+  font-weight: 800;
+  position: relative;
+}
+#Hero-Line {
+  position: absolute;
+  left: 30px;
+  top: 55px;
+  z-index: -1;
+}
+#heroText p {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: #787aa8;
+  margin: 2vmax 0;
+  max-width: 600px;
+  text-align: justify;
+  line-height: 132.5%;
+}
+#heroImageDiv {
+  width: 50%;
+}
+#Herobackground {
+  height: 457px;
+  margin: 60px;
+  margin-top: -40px;
+}
+
+/* hero section end ......*/
+
+/* award section start ......*/
+
+.awards {
+  position: relative;
+  height: max-content;
+  width: 100%;
+  margin-bottom: 5%;
+  display: flex;
+  background-color: white;
+  justify-content: center ;
+}
+
+.awardsDiv {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+  color: #181c61;
+}
+.awardsDiv h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.awardsDiv h1 span {
+  font-size: 12px;
+}
+.awardsDiv img {
+  height: 55px;
+}
+.awardTextDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* award section end ......*/
+/* about section start ......*/
+.AboutUs {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsText {
+  width: 974px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsText h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 80px;
+  color: #181c61;
+}
+
+.AboutUsText p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #787aa8;
+  text-align: center;
+}
+.AboutUsText .callButton {
+  margin-top: 20px;
+  width: 200px;
+}
+.AboutUs-Bg {
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+  position: absolute;
+  justify-content: space-around;
+}
+.AboutUs-Bg div {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+}
+/* .AboutUs-Bg img{
+ 
+} */
+
+.AboutBg1 {
+  position: absolute;
+  width: 59.76px;
+  height: 62.58px;
+  top: 10%;
+  left: 10%;
+}
+.AboutBg2 {
+  position: absolute;
+  width: 55.72px;
+  height: 58.35px;
+  left: 148.31px;
+  top: 42%;
+}
+.AboutBg3 {
+  position: absolute;
+  width: 68.99px;
+  height: 72.24px;
+  left: 297px;
+  top: 30%;
+}
+.AboutBg4 {
+  position: absolute;
+  width: 93.99px;
+  height: 82.23px;
+  left: 10.68px;
+  top: 55%;
+}
+.AboutBg5 {
+  position: absolute;
+  width: 49.21px;
+  height: 51.54px;
+  left: 183px;
+  bottom: 8%;
+}
+.AboutBg11 {
+  position: absolute;
+  width: 59.76px;
+  height: 62.58px;
+  top: 10%;
+  right: 10%;
+}
+.AboutBg22 {
+  position: absolute;
+  width: 55.72px;
+  height: 58.35px;
+  right: 148.31px;
+  top: 42%;
+}
+.AboutBg33 {
+  position: absolute;
+  width: 68.99px;
+  height: 72.24px;
+  right: 297px;
+  top: 30%;
+}
+.AboutBg44 {
+  position: absolute;
+  width: 93.99px;
+  height: 82.23px;
+  right: 10.68px;
+  top: 55%;
+}
+.AboutBg55 {
+  position: absolute;
+  width: 49.21px;
+  height: 51.54px;
+  right: 183px;
+  bottom: 8%;
+}
+
+/* award section end ......*/
+/* work section start ......*/
+
+.work {
+  position: relative;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10vmax;
+}
+.work img {
+}
+
+#work-heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #181c61;
+}
+
+/* work section end ......*/
+/*project section start*/
+
+.projects {
+  position: relative;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  margin: 10vmax;
+  margin-top: 140px;
+}
+.project img {
+  width: 25vmax;
+  height: 424.23px;
+}
+.project {
+  text-align: center;
+}
+.project h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 123%;
+  /* or 30px */
+
+  text-align: center;
+
+  color: #181c61;
+  margin-top: 30px;
+}
+.projectHeading {
+  margin-bottom: -50px;
+  font-family: "Open Sans";
+  font-style: normal;
+margin-top: 10vmax;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 123%;
+  /* or 44px */
+  text-align: center;
+  color: #181c61;
+  top: 0;
+  left: 50%;
+}
+/*project section end*/
+
+/*value div start...*/
+
+.values {
+  position: relative;
+  width: 100%;
+
+  padding: 0 10vmax;
+}
+.values h2 {
+  font-family: "Open Sans";
+  
+  font-weight: 800;
+  font-size: 36px;
+  margin-top: -40px;
+
+  text-align: center;
+margin-bottom: 5vmax;
+  color: #181c61;
+}
+
+.valuediv {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.valuediv img {
+}
+.valuediv h3 {
+  margin-top: 5px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 123.52%;
+  text-align: center;
+  /* identical to box height, or 25px */
+
+  color: #ffffff;
+}
+.valuediv div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 180px;
+  background: #181c61;
+  box-shadow: 0px 0px 9px 9px rgba(233, 240, 254, 0.4);
+  border-radius: 15px;
+}
+
+/* brand section start .....*/
+.Brand {
+  /* height: 600px; */
+}
+.BrandMain {
+  display: flex;
+  padding-top: 10vmax;
+  justify-content: center;
+}
+.BrandText {
+  
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10vmax;
+}
+.Brand .BrandText p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 165%;
+  margin-bottom: 20px;
+  /* or 26px */
+  width: 466px;
+
+  color: #787aa8;
+}
+.Brand h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 123%;
+  margin-top: 80px;
+  /* or 44px */
+
+  text-align: center;
+
+  color: #181c61;
+}
+.Brand img {
+  width: 50vw;
+ 
+  
+}
+
+/*tech*/
+
+.Technology {
+  width: 100%;
+}
+.Technology img {
+  margin: 80px 0;
+  width: 100%;
+}
+.Technology h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 123%;
+  /* or 44px */
+margin-top: 10vmax;
+  text-align: center;
+
+  color: #181c61;
+}
+
+.OtherServices {
+  position: relative;
+  width: 100%;
+
+  padding: 0 10vmax;
+}
+.OtherServices h2 {
+  font-family: "Open Sans";
+  margin: 50px;
+  font-weight: 800;
+  font-size: 36px;
+ 
+
+  text-align: center;
+
+  color: #181c61;
+}
+.OtherService div {
+  background: #f9fbff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.09);
+  border-radius: 18px;
+}
+.OtherService h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 123.52%;
+  /* or 30px */
+
+  text-align: center;
+
+  color: #181c61;
+}
+/* brand section end .....*/
+
+
+
+.recognition{
+  /* height: ; */
+  width: 100%;
+  margin-bottom: 10vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.sub-head{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+.recognition h1{
+ text-align: center;
+ color: #181C61;
+ 
+ font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 123%;
+margin-bottom: 10vmax;
+/* or 44px */
+
+text-align: center;
+
+color: #181C61;
+}
+.packages{
+  padding: 10vmax 0;
+  background: rgba(249, 251, 255, 0.92);
+}
+.packages h1{
+ text-align: center;
+ color: #181C61;
+ 
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 123%;
+/* or 44px */
+
+text-align: center;
+
+color: #181C61;
+
+}
+
+.sub-head-package{
+  display: flex;
+  justify-content: center;
+}
+
+.package-card{
+  width: 320px;
+  height: 436px;
+  background-color: #ffff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+  padding: 30px;
+  margin-left: 58px;
+  margin-top: 0 !important;
+}
+.packages h1{
+  margin-bottom: 60px;
+}
+.package-card h4{
+  font-size: 32px;
+  color: #181C61;
+}
+.package-card h5{
+  font-weight: 600;
+ font-size: 20px;
+ margin-bottom: 10px;
+ color: #787AA8;
+}
+.package-card h6{
+ font-size: 14px;
+ margin-bottom: 10px;
+ color: #787AA8;
+}
+.package-card p{
+ font-size: 14px;
+ margin-top: 10px;
+ color: #787AA8;
+}
+.para{
+  padding-left: 10px;
+}
+.package-card img{
+  margin-top: 10px;
+}
+.package-card .button{
+  
+}
+.package-card .callButton{
+ padding: 10px 15px;
+ margin-top: 67px;
+ text-align: center;
+ width: 260px;
+height: 50px;
+left: 212px;
+top: 5302px;
+
+/* b */
+
+background: linear-gradient(90deg, #FF8B73 0%, #FF678E 140.96%);
+border-radius: 15px;
+}
+.News h1{
+  margin-bottom: 30px;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 123%;
+/* or 44px */
+
+text-align: center;
+
+color: #181C61;
+
+}
+
+.News{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vmax 0;
+}
+.newsDiv{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.newsDiv h4{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 132.52%;
+/* identical to box height, or 27px */
+
+
+color: #181C61;
+margin: 10px 0;
+}
+.newsDiv div{
+  margin: 30px;
+}
+.newsDiv p{
+  width: 335px;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 132.52%;
+/* or 21px */
+color: #787AA8;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 907px) {
+  .valuediv div {
+    height: 250px;
+    padding: 10px;
+    width: 250px;
+  }
+  h1,h2{
+    font-size: 25px !important;
+  }
+  .awards{
+    flex-direction: column;
+    align-items: center;  
+  }
+  .awardsDiv{
+    margin: 50px;
+  }
+  .hero{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vmax !important;
+  }
+  .hero h1{
+    font-size: 32px !important;
+    text-align: center !important;
+    color: white !important;
+    font-weight: 700 !important;
+  }
+  .hero p{
+    text-align: center !important;
+    color: white !important;
+    font-size: 12px !important;
+  }
+  .projects{
+    flex-direction: column;
+  }
+  .Brand .BrandText p{
+  
+  }
+  .sub-head-package{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .package-card {
+    margin: 50px;
+  }
+  .newsDiv{
+    display: initial;
+  }
+  .AboutUsText p {
+    max-width: 100% !important;
+    text-align: justify;
+    padding: 0 30px;
+  }
+ .project h4{
+  margin: 30px;
+ }
+ .project img {
+  width: 47vmax;
+  height: 424.23px;
+}
+.work{
+  padding: 0px 10px;
+}
+.BrandMain{
+  flex-direction: column;
+  align-items: center;
+}
+.BrandText{
+  margin: 0;
+}
+.BrandMain p {
+  text-align: center;
+  width: initial;
+  margin: 30px;
+  text-align: justify;
+
+}
+.Brand .BrandText p {
+  width: initial;
+}
+
+
+}
+
+@media screen and (max-width: 1285px) {
+  .valuediv{
+    flex-direction: column;
+  }
+  .valuediv div{
+    height: 250px;
+    padding: 10px;
+    width: 250px;
+    margin: 30px;
+  }
+  #Herobackground {
+    width: 290px;
+    height: 240px;
+    margin: 0%;
+    margin-top: 2vmax;
+  }
+  
+}
+#menuBtn{
+  display: none;
+}
+
+@media screen and (max-width: 1190px) {
+  nav{
+    justify-content: space-between;
+  }
+  #menuBtn{
+    display: initial;
+  }
+
+  .links{
+    display: none;
+  }
+  nav .callButton{
+    display: none;
+  }
+ 
+}
+
+#logo{
+  width: 160px;
+  height: 50px;
+  background-image: url('../images/srchout\ blue\ logo.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 525px) {
+  #heroText .callButton{
+    width: 127px;
+  }
+  #logo{
+    width: 100px;
+  height: 30px;
+    background-image: url('../images/image\ 3.png');
+  }
+ 
+
+
+  .hero{
+    background-image: url('../images/Group\ 813.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* background-position: right top; */
+    background-size: cover;
+    background-position: right;
+    padding: 10vmax;
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 0;
+    height: 100%;
+  }
+  nav{
+    padding: 30px;
+    justify-content: space-between;
+  }
+  #heroImageDiv {
+    width: initial;
+    
+    }
+  
+  #heroText{
+    width: initial;
+    text-align: -webkit-center; 
+  }
+}

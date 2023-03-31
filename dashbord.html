@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./styles/dashbord.css" />
+
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+          </div>
+          <div class="close" id="close-btn">
+          </div>
+        </div>
+        <div class="sidebar">
+        </div>
+      </aside>
+
+      <main>
+        <h1 id="color">Dashboard</h1>
+        <div class="insights">
+          <div class="sales">
+            <i class="ri-bit-coin-fill icon"></i>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Points</h3>
+                <h1>500</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>81%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Points -->
+          <div class="expenses">
+            <i class="ri-traffic-light-line icon"></i>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Traffic Light Crossed</h3>
+                <h1>32</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>62%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted"> Last 24 hours </small>
+          </div>
+
+          <!-- traffic -->
+          <div class="income">
+            <i class="ri-sort-asc icon"></i>
+            <div class="middle">
+              <div class="left">
+                <h3>Leaderboard</h3>
+                <h1>344 rank</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>44%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="recent-orders">
+          <h2 id="color">Redeem History</h2>
+          <table id="recent-orders--table">
+            <thead>
+              <tr>
+                <th>Date of redemption</th>
+                <th>Reward redeemed</th>
+                <th>Reference number</th>
+                <th>Status of Redeemtion</th>
+                <th></th>
+              </tr>
+            </thead>
+          </table>
+          <a href="#">Show All</a>
+        </div>
+      </main>
+
+    </div>
+    <script src="./constants/recent-order-data.js"></script>
+    <script src="./scripts/dashboard.js"></script>
+  </body>
+</html>

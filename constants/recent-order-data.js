@@ -1,0 +1,51 @@
+const RECENT_ORDER_DATA = [
+    {
+      date: " 2023-03-31 19:03:42",
+      reedem: "Amazon gift voucher",
+      ref: "3334990001",
+      status: "Pending",
+      statusColor: "warning",
+    },
+    {
+      date: "2023-04-25 15:04:22",
+      reedem: "Free Helmet",
+      ref: "5425984565",
+      status: "Declined",
+      statusColor: "danger",
+    },
+    {
+      date: "2023-06-26 20:06:52",
+      reedem: "Discount on fuel",
+      ref: "5306459514",
+      status: "Pending",
+      statusColor: "warning",
+    },
+    {
+      date: "2023-10-02 09:24:52",
+      reedem: "Free pass for transportaion",
+      ref: "2314947429",
+      status: "Delivered",
+      statusColor: "primary",
+    },
+    {
+      date: "2023-06-23 12:07:21",
+      reedem: "Free Helmet",
+      ref: "9083732069",
+      status: "Delivered",
+      statusColor: "primary",
+    },
+    {
+      date: "2023-12-22 13:03:42",
+      reedem: "Amazon gift voucher",
+      ref: "8047570198",
+      status: "Pending",
+      statusColor: "warning",
+    },
+    {
+      date: "2023-10-31 16:45:40",
+      reedem: "Free car wash",
+      ref: "7237231022",
+      status: "Delivered",
+      statusColor: "primary",
+    },
+  ];
