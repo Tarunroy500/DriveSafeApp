@@ -816,6 +816,13 @@ body {
   right: -15px;
 
 }
+button {
+  border:none;
+  background-color:transparent;
+  outline:none;
+  color: white;
+  font-size: 15px;
+}
 
 .blog-background img {
   width: 30%;

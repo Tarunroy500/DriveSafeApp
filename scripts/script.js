@@ -1,4 +1,8 @@
-
+$("button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll2").offset().top},
+        'slow');
+});
 
   
 (function($) {
